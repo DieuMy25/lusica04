@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="CSS/Cart.css">
+    <link rel="stylesheet" href="CSS/Content.css">
+</head>
+<body onload="loaddatacart()">
+    <div id="container">
+        <div class="top">
+            <img src="Image/map.png" width="25px">
+            <a href="">Hệ thống 77 cửa hàng</a>
+            <img src="Image/phone.png" width="23px"> 
+            <a href="">090.1800.888</a>
+            <img src="Image/truck.png" width="25px">
+            <a href="">Tra cứu đơn hàng</a>
+            <img src="Image/page.png" width="25px">
+            <a href="">Trang tin</a>
+            <img src="Image/recruit.png" width="25px">
+            <a href="">Tuyển dụng</a>
+        </div>
+        <div class="menu-top">
+            <div class="box-logo">
+                <img src="Image/logo.png" width="60px">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="">nam</a></li>
+                    <li><a href="">nữ</a></li>
+                    <li><a href="">đồ cặp</a></li>
+                    <li><a href="">phụ kiện</a></li>
+                    <li><a href="">sale</a></li>
+                </ul>
+            </div>
+            <div class="box-search">
+                <span id="slsp"></span>
+                <a href="#">
+                    <img class="xuong" src="Image/gio hang.png" width="30px">
+                </a>
+                <a href="Signup.html"> <img src="Image/user.png" width="28px"></a>
+                <a href=""> <img src="Image/tu van.png" width="34px"></a>
+                <input type="text" placeholder="Tìm kiếm">
+            </div>
+        </div>
+
+        <div class="giohang">
+            <p> GIỎ HÀNG</p>
+        </div>
+
+        <div class="main">
+            <div class="hop">
+                <div class="left">
+                    <div class="form1">
+                        <p>Vận chuyển đến </p>
+                        <a href="">Vui lòng nhập địa chỉ</a>
+                    </div>
+
+                    <div class="form2">
+                        <h2>Tóm tắt mặt hàng</h2>
+                        <input type="checkbox">
+                        <div class="ten-col">
+                            <div class="ten">Tất cả</div>
+                            <div class="ten">Sản phẩm</div>
+                            <div class="ten">Giá</div>
+                            <div class="ten pad20">Số lượng</div>
+                            <div class="ten">Tổng cộng</div>
+                        </div>
+                        
+                        <div class="sanpham" id="thongtinsp"><hr>
+                            <div class="padtop20">
+                                <div class="sp-1" >
+                                    <a  onclick="xoa()" style="cursor: pointer;">
+                                        <img src="" style="width: 25px; padding-top: 35px;">
+                                    </a>
+                                </div>
+                                <div class="sp-2">
+                                    <div class="sp-hinh">
+                                        
+                                    </div>
+                                    <br> <br>
+                                    <strong></strong> 
+                                </div>
+                                <div class="sp-3"> <p>Không có sản phẩm nào trong giỏ hàng</p> </div>
+                                <div class="sp-4">
+                                    <div class="sl" >
+                                        <!-- <button onclick="congtru()" class="tru" style="width: 25px; height: 25px; float: left;">-</button>
+                                        <input type="hidden" value="1">
+                                        <span>1</span>
+                                        <button class="tru" style="width: 25px; height: 25px; float: right;">+</button> -->
+                                    </div>
+                                </div>
+                                <div class="sp-5"> <p></p> </div>
+                            </div>
+                        </div>
+                        <p onclick="xoatc()" style="cursor: pointer; padding: 30px 0px 5px 10px; color: #e71f1f; clear: both;">Xóa tất cả</p>
+                    </div>
+                    
+                </div>
+
+                <div class="right">
+                    <div class="thanhtoan">
+                        <h2>Tóm tắt đơn hàng</h2>
+                        <div class="tien">
+                            <h3>Tổng</h3> 
+                            <p id="tonggiohang"></p>
+                        </div>
+                        <button>Thanh toán</button> 
+                    </div>
+                    <div class="bank">
+                        <h2>Chúng tôi chấp nhận</h2>
+                        <img src="Image/bank1.webp" width="64px">
+                        <img src="Image/bank2.webp" width="64px">
+                        <img src="Image/bank3.webp" width="64px">
+                        <img src="Image/bank4.webp" width="64px">
+                        <img src="Image/bank5.webp" width="64px">
+                        <img src="Image/bank6.webp" width="64px">
+                        <img src="Image/bank7.webp" width="64px">
+                        <img src="Image/bank8.webp" width="64px">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="footer-1">
+                <hr>
+                <div class="footer-90">
+                    <div class="footer-left">
+                        
+                        <p>Công ty thời trang FM <br>
+                            Hotline:
+                            0901 888 888 (Bấm số 7) <br>
+                            Trụ sở:
+                            48 Yên Bái, phường Hải Châu I, quận Hải Châu, Thành phố Đà Nẵng
+                        </p>
+                        
+                    </div>
+                    
+                    <div class="footer-right">
+                        <p>
+                            Email: website@fmstyle.com.vn <br>
+                            Văn phòng Miền Nam: 645 Quang Trung, phường 11, quận Gò Vấp, Thành phố Hồ Chí Minh
+                        </p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="footer-fi">
+                <div class="sec1">@ Bản quyền thuộc về fm.com.vn All right reserved</div>
+            </div>
+        </footer>
+    </div>
+    <script src="JavaScript/fm.js"></script>
+    <!-- <script src="cart.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,113 @@
+.dangky{
+    width: 100%; height: 50px;
+    background-color: rgb(252, 244, 233);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+form{
+    width: 100%; height: 650px;
+    position: relative;
+}
+.ob{
+    object-fit: cover;
+}
+.main{
+    width: 430px; height: 640px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    border-radius: 7px;
+    
+}
+h4, a{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+.main span{
+    float: left;
+    margin: 10px 30px;
+    font-size: 16px
+
+}
+form input{
+    margin: 0px 0px 0px 0px !important;
+    padding-left: 20px !important;
+    width: 380px  !important; height: 50px !important;
+    /* background-color: rgb(252, 244, 233); */
+    border: 1px solid rgb(203, 198, 198);
+
+}
+form p{
+    float: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.war{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    color: red;
+}
+.thea a{
+    float: right;
+    padding-right: 25px;
+}
+.luu{
+    width: 100%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    clear: both;
+    margin: 30px 0px;
+    position: relative;
+}
+.luu input{
+    width: 20px !important;
+    position: absolute;
+    left: 25px;
+
+}
+.luu p{
+    float: left;
+    padding-left: 60px;
+}
+.dangnhap{
+    width: 100%;
+    /* background-color: yellowgreen; */
+    height: 50px;
+}
+.dangnhap button{
+    width: 380px !important;
+    height: 35px !important;
+    font-size: 19px !important;
+    background-color: red;
+    color: aliceblue;
+    font-weight: 300;
+}
+.cachkhac{
+    width: 380px;
+    height: 60px;
+    padding-top: 15px;
+}
+.float-l{
+    float: left !important;
+}
+.float-r{
+    float: right !important;
+}
+.cachkhac button{
+    width: 180px !important;
+    height: 35px !important;
+    background-color: white !important;
+    border: 1px solid gray !important;
+    font-weight: 400 !important;
+    font-size: 16px;
+}
+.cachkhac button p{
+    padding-top: 5px;
+}

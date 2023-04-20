@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PS30740-ASM-Java Script</title>
+    <link rel="stylesheet" href="CSS/Content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <style>
+    
+    </style>
+</head>
+<body onload="getsoluong()">
+    <div id="container">
+        <div class="top">
+            <img src="Image/map.png" width="25px">
+            <a href="">Hệ thống 77 cửa hàng</a>
+            <img src="Image/phone.png" width="23px"> 
+            <a href="">090.1800.888</a>
+            <img src="Image/truck.png" width="25px">
+            <a href="">Tra cứu đơn hàng</a>
+            <img src="Image/page.png" width="25px">
+            <a href="">Trang tin</a>
+            <img src="Image/recruit.png" width="25px">
+            <a href="">Tuyển dụng</a>
+        </div>
+        <div class="menu-top">
+            <div class="box-logo">
+                <img src="Image/logo.png" width="60px">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">nam</a></li>
+                    <li><a href="">nữ</a></li>
+                    <li><a href="">đồ cặp</a></li>
+                    <li><a href="">phụ kiện</a></li>
+                    <li><a href="">sale</a></li>
+                </ul>
+            </div>
+            <div class="box-search">
+                <span id="slsp"></span>
+                <a href="Cart.html"> <img class="xuong" src="Image/gio hang.png" width="30px"></a>
+                <a href="Signup.html"> <img src="Image/user.png" width="28px"></a>
+                <a href=""> <img src="Image/tu van.png" width="34px"></a>
+                <input type="text" placeholder="Tìm kiếm">
+            </div>
+        </div>
+        <div class="banner">
+            <img id="banner" src="Image/banner4.png"  width="100%" height="100%">
+            <i style="cursor: pointer;" class="fa fa-chevron-circle-left" onclick="prev()"></i>
+            <i style="cursor: pointer;" class="fa fa-chevron-circle-right" onclick="next()"></i>
+        </div>
+    
+    
+        <div class="main">
+            <div class="inner">
+                <div class="tools">
+                    <div class="box-tool" >
+                        <img src="Image/ao thun.png">
+                    </div>
+
+                    <div class="box-tool">
+                        <img src="Image/ao polo.png">
+                    </div>
+                   
+                    <div class="box-tool">
+                        <img src="Image/ao somi.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/ao len.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/ao khoac.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/ao sweater.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/vay dam.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/chan vay.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/quan short.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/quan jean.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/quan kaki.png">
+                    </div>
+                    
+                    <div class="box-tool">
+                        <img src="Image/quan tay.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="sec1">
+                <div class="sec1-top">
+                    <span>Tìm kiếm hàng đầu</span>
+                </div>
+                <div class="do">
+                    <div class="box-do cach">
+                        <div class="boximg">
+                            <img src="Image/Áo thun.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>169.000 </del> 
+                            <span>140.000 VND</span> 
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="#">Áo Thun Kiểu Croptop</a>
+                        </div>
+                        <input type="hidden" name="price" value="140000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box-do cach">
+                        <div class="boximg">
+                            <img src="Image/Áo thun 2.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>179.000 </del>150.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Áo Kiểu Cổ Tròn Đính Nơ</a>
+                        </div>
+                        <input type="hidden" name="price" value="150000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box-do cach">   
+                        <div class="boximg">
+                            <img src="Image/Áo thun 3.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>195.000 </del>165.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Áo Polo Nữ Trơn Basic</a>
+                        </div>
+                        <input type="hidden" name="price" value="165000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box-do cach">
+                        <div class="boximg">
+                            <img src="Image/Áo thun 4.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>129.000 </del>109.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Áo Thun Croptop Vải Lông </a>
+                        </div>
+                        <input type="hidden" name="price" value="109000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box-do">
+                        <div class="boximg">
+                            <img src="Image/Áo thun 5.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>269.000 </del>229.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Váy Thiết Kế Chỉ Nổi Thất</a>
+                        </div>
+                        <input type="hidden" name="price" value="229000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box-do cach">
+                        <div class="boximg">
+                            <img src="Image/Áo thun 6.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>169.000 </del>140.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Áo Thun Nữ Croptop Khoét</a>
+                        </div>
+                        <input type="hidden" name="price" value="140000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box-do cach">
+                        <div class="boximg">
+                            <img src="Image/Áo thun 7.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>139.000 </del>110.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Áo Thun Nữ Trễ Vai Dài</a>
+                        </div>
+                        <input type="hidden" name="price" value="110000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div> 
+                    <div class="box-do cach">
+                        <div class="boximg">
+                            <img src="Image/Áo thun 8.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>237.150 VND </del>200.000
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Váy 2 Dây Dáng Dài Nhún</a>
+                        </div>
+                        <input type="hidden" name="price" value="200000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box-do cach">
+                        <div class="boximg">
+                            <img src="Image/Áo thun 9.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>159.000 </del>135.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Áo Sơ Mi Nữ Tay Dài Form</a>
+                        </div>
+                        <input type="hidden" name="price" value="135000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box-do">
+                        <div class="boximg">
+                            <img src="Image/Áo thun 10.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>169.000 </del>130.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Áo Thun Croptop Chỉ Nổi</a>
+                        </div>
+                        <input type="hidden" name="price" value="130000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="sec3">
+                <div class="sec1">
+                    <div class="do">
+                        <div class="box-do cach">
+                            <div class="boximg">
+                                <img src="Image/vay6.jpg" width="100%" height="350px">
+                            </div>
+                            <div class="gia">
+                                <del>319.000 </del>270.000 VND
+                            </div>
+                            <div class="describe">
+                                <a class="describe" href="">Váy Thiết Kế Cổ Chéo Cách</a>
+                            </div>
+                            <input type="hidden" name="price" value="270000">
+                            <button class="addtocart">Thêm vào giỏ</button>
+                        </div>
+    
+                        <div class="box-do cach-p">
+                            <div class="boximg">
+                                <img src="Image/vay7.jpg" width="100%" height="350px">
+                            </div>
+                            <div class="gia">
+                                <del>359.000 </del>305.000 VND
+                            </div>
+                            <div class="describe">
+                                <a class="describe" href="">Váy Chữ A Cỗ Vuông</a>
+                            </div>
+                            <input type="hidden" name="price" value="305000">
+                            <button class="addtocart">Thêm vào giỏ</button>
+                        </div>
+    
+                        <div class="box-do">   
+                            <div class="boximg">
+                                <img src="Image/vay8.jpg" width="100%" height="350px">
+                            </div>
+                            <div class="gia">
+                                <del>359.000 </del>305.000 VND
+                            </div>
+                            <div class="describe">
+                                <a class="describe" href="">Váy Xốp Dáng Cổ Vuông</a>
+                            </div>
+                            <input type="hidden" name="price" value="305000">
+                            <button class="addtocart">Thêm vào giỏ</button>
+                        </div>
+                    <div class="box-chusacxuan">
+                        <a href=""><h2>Sắc Xuân</h2>
+                        <h3>Bước vào đầu tháng 2, nắng ấm đã chiếu rọi khắp mọi nơi, đẩy lùi cái lạnh giá
+                            của mùa đông năm trước. Thời điểm này chính là lúc cái cô nàng thỏa sức "khoe dáng" trong những
+                        </h3>
+                        <h4>Xem thêm phong cách -></h4></a>
+                    </div>
+                    <img src="Image/sac xuan.png" width="35%">
+                </div>
+                <br> <br>
+                <div class="do">
+                    <div class="box-do cach-p">
+                        <div class="boximg">
+                            <img src="Image/vay1.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>259.000 </del>220.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Váy Cổ Yếm Phối Dây</a>
+                        </div>
+                        <input type="hidden" name="price" value="220000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box-do cach-p">
+                        <div class="boximg">
+                            <img src="Image/vay2.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>345.000 </del>290.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Váy Thiết Kế Dáng Xòe Cổ</a>
+                        </div>
+                        <input type="hidden" name="price" value="290000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box-do cach-p">   
+                        <div class="boximg">
+                            <img src="Image/vay3.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>315.000 </del>270.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Váy Chữ A Tay Cánh Tiên</a>
+                        </div>
+                        <input type="hidden" name="price" value="270000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box-do cach-p">
+                        <div class="boximg">
+                            <img src="Image/vay4.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>295.000 </del>250.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Váy Cổ Tàu Đính Nút Ngực</a>
+                        </div>
+                        <input type="hidden" name="price" value="250000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box-do">
+                        <div class="boximg">
+                            <img src="Image/vay5.jpg" width="100%" height="350px">
+                        </div>
+                        <div class="gia">
+                            <del>205.000 </del>170.000 VND
+                        </div>
+                        <div class="describe">
+                            <a class="describe" href="">Váy Cổ Vuông Nhúng Tay</a>
+                        </div>
+                        <input type="hidden" name="price" value="170000">
+                        <button class="addtocart">Thêm vào giỏ</button>
+                    </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="hinh">
+                <img src="Image/00364947-743c-48a1-8ba1-dfd62c95cf03.png" width="100%">
+            </div>
+        </section>
+        <section>
+            <div class="hinh-2">
+                <img src="Image/2.png" width="100%">
+            </div>
+            
+        </section>
+        <section>
+            <div class="sec4">
+                <div class="sec1">
+                    <div class="sec1-top">
+                        <span>Tin tức</span>
+                    </div>
+                    
+                    <div class="tintuc">
+                        <div class="box-tintuc cach">
+                            <img src="Image/tin tuc 1.png" width="100%">
+                            <div class="chu-tintuc">NGÀY TỐT - GIÁ HỜI</div>
+                            <p>Từ ngày 13/03/2023, FM Style bán đồng giá từ 79k và sale off 15% TẤT CẢ SẢN PHẨM tại website.</p>
+                        </div>
+                        <div class="box-tintuc cach">
+                            <img src="Image/tin tuc2.png" width="100%">
+                            <div class="chu-tintuc">Cách Chọn Chân Váy Chữ A Phù Hợp Với...</div>
+                            <p>Để chọn được chân váy chữ A đẹp, trước tiên bạn phải xác định được mình thuộc dáng người nào. Với những bí quyết chọn chân váy dưới đây ...</p>
+                        </div>
+                        <div class="box-tintuc">
+                            <img src="Image/tin tuc3.png" width="100%">
+                            <div class="chu-tintuc">GIỜ VÀNG - CƠ HỘI VÀNG MUA HÀNG...</div>
+                            <p>Mừng Re-Opening chi nhánh FM Style 189 Ông Ích Đường, Cẩm Lệ, Đà Nẵng - Tặng 5.000 phần quà miễn phí và ưu đãi KHUNG GIỜ VÀNG chỉ từ ...</p>
+                        </div>
+                    </div>
+                    <div class="hinh-tintuc">
+                        <div class="hinh1">
+                            <img src="Image/hinhtt1.png" width="100%" height="100%">
+                        </div>
+                        <div class="hinh2-3">
+                            <div class="hinh2">
+                                <img src="Image/hinhtt2.png" width="100%" height="100%">
+                            </div>
+                            <div class="hinh3">
+                                <img src="Image/hinhtt3.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-1">
+                <hr>
+                <div class="footer-90">
+                    <div class="footer-left">
+                        
+                        <p>Công ty thời trang FM <br>
+                            Hotline:
+                            0901 888 888 (Bấm số 7) <br>
+                            Trụ sở:
+                            48 Yên Bái, phường Hải Châu I, quận Hải Châu, Thành phố Đà Nẵng
+                        </p>
+                        
+                    </div>
+                    
+                    <div class="footer-right">
+                        <p>
+                            Email: website@fmstyle.com.vn <br>
+                            Văn phòng Miền Nam: 645 Quang Trung, phường 11, quận Gò Vấp, Thành phố Hồ Chí Minh
+                        </p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="footer-fi">
+                <div class="sec1">@ Bản quyền thuộc về fm.com.vn All right reserved</div>
+            </div>
+        </footer>
+    </div>
+    <script src="JavaScript/fm.js"></script>
+</body>
+</html>

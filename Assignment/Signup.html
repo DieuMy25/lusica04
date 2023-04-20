@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="CSS/Content.css">
+    <link rel="stylesheet" href="CSS/Cart.css">
+    <link rel="stylesheet" href="CSS/signup.css">
+</head>
+<body onload="loaddatacart()">
+    <div id="container">
+        <div class="top">
+            <img src="Image/map.png" width="25px">
+            <a href="">Hệ thống 77 cửa hàng</a>
+            <img src="Image/phone.png" width="23px"> 
+            <a href="">090.1800.888</a>
+            <img src="Image/truck.png" width="25px">
+            <a href="">Tra cứu đơn hàng</a>
+            <img src="Image/page.png" width="25px">
+            <a href="">Trang tin</a>
+            <img src="Image/recruit.png" width="25px">
+            <a href="">Tuyển dụng</a>
+        </div>
+        <div class="menu-top">
+            <div class="box-logo">
+                <img src="Image/logo.png" width="60px">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="">nam</a></li>
+                    <li><a href="">nữ</a></li>
+                    <li><a href="">đồ cặp</a></li>
+                    <li><a href="">phụ kiện</a></li>
+                    <li><a href="">sale</a></li>
+                </ul>
+            </div>
+            <div class="box-search">
+                <span id="slsp"></span>
+                <a href="Cart.html"> <img class="xuong" src="Image/gio hang.png" width="30px"></a>
+                <a href=""> <img src="Image/user.png" width="28px"></a>
+                <a href=""> <img src="Image/tu van.png" width="34px"></a>
+                <input type="text" placeholder="Tìm kiếm">
+            </div>
+        </div>
+        <div class="dangky">
+            <p>ĐĂNG KÝ</p>
+        </div>
+
+        <form>
+            <img src="Image/BannerLogin.png" width="100%" class="ob">
+            <div class="main">
+                <h4>Bạn chưa có tài khoản FM? <a href="#">Đăng ký ngay</a></h4>
+                <span>Số điện thoại</span>
+                <input type="text" placeholder="Nhập số điện thoại" id="tel_ip">
+                <div class="war">
+                    <p id="tel_er"></p>
+                </div>
+                
+                <span>Mã PIN</span>
+                <input type="password" placeholder="Nhập mã PIN" id="pin_ip">
+                <div class="war">
+                    <p id="pin_er"></p>
+                </div>
+                <div class="thea">
+                    <a href="#">Quên mã PIN </a>
+                </div>
+
+                <div class="luu">
+                    <input type="checkbox">
+                    <p>Lưu thông tin đăng nhập</p>
+                </div>
+                <div class="dangnhap">
+                    <button onclick="return check()">Đăng nhập</button>
+                </div>
+                hoặc
+                <div class="cachkhac">
+                    <button class="float-l">
+                        
+                        <img src="Image/signup/Facebook_Logo_(2019).png" width="25px">
+                        <p>Facebook</p>
+                        
+                    </button>
+                    <button class="float-r">
+                        <img src="Image/signup/gg.png" width="25px">
+                        <p>Google</p>
+                    </button>
+                </div>
+
+                <p>Bằng việc chọn Đăng Nhập, bạn xác nhận đã đọc &
+                    đồng ý với các. Chính Sách Bảo Mật & Chia Sẻ Thông
+                    Tin của FM.
+                </p>
+            </div>
+        </form>
+
+
+
+
+        <footer>
+            <div class="footer-1">
+                <hr>
+                <div class="footer-90">
+                    <div class="footer-left">
+                        
+                        <p>Công ty thời trang FM <br>
+                            Hotline:
+                            0901 888 888 (Bấm số 7) <br>
+                            Trụ sở:
+                            48 Yên Bái, phường Hải Châu I, quận Hải Châu, Thành phố Đà Nẵng
+                        </p>
+                        
+                    </div>
+                    
+                    <div class="footer-right">
+                        <p>
+                            Email: website@fmstyle.com.vn <br>
+                            Văn phòng Miền Nam: 645 Quang Trung, phường 11, quận Gò Vấp, Thành phố Hồ Chí Minh
+                        </p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="footer-fi">
+                <div class="sec1">@ Bản quyền thuộc về fm.com.vn All right reserved</div>
+            </div>
+        </footer>
+    </div>
+    <script src="JavaScript/fm.js"></script>
+</body>
+</html>
